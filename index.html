@@ -1,0 +1,45 @@
+---
+title: Home
+---
+
+<div class="row">
+ <div class="small-6 columns">
+    <a class="element" id="email-link" href="#">
+      <img style="margin: 0 auto" src="/img/email.png" alt="Email">
+    </a>
+  </div>
+
+  <script>
+    (function() {
+      function reverse (str) {
+        var rev = "";
+        for (var i = 0; i < str.length; i++) {
+          rev += str.charAt(str.length-1 - i);
+        }
+        return rev;
+      }
+
+      var emailLink = document.getElementById("email-link");
+      var mailto = "mailto:" + reverse("or.ietamaerpo@ue");
+      emailLink.setAttribute("href", mailto);
+    })();
+  </script>
+  <div class="small-6 columns">
+    <a class="element" href="http://ro.linkedin.com/in/mateioprea">
+      <img src="/img/linkedin.png" alt="LinkedIn">
+    </a>
+  </div>
+</div>
+
+<div class="row">
+  <div class="small-6 columns">
+    <a class="element" href="http://twitter.com/mateioprea">
+      <img src="/img/twitter.png" alt="Twitter">
+    </a>
+  </div>
+  <div class="small-6 columns">
+    <a class="element" href="https://github.com/mateioprea">
+      <img src="/img/github.png" alt="Github">
+    </a>
+  </div>
+</div>

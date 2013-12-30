@@ -1,4 +1,4 @@
 About
 =====
 
-Uses hakyll to generate my site. 
+Presentation page for my website.
